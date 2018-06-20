@@ -19,9 +19,9 @@ function destructivelyAddElementToEndOfArray(chocolateBars, name){
 function accessElementInArray(chocolateBars, Index) {
   console.log(chocolateBars[`${Index}`]);
 }
-function destructivelyRemoveElementFromBeginningOfArray(chocolateBars, element) {
-  chocolateBars.shift(`${element}`);
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
+  chocolateBars.shift(1);
 }
 function RemoveElementFromBeginningOfArray(chocolateBars) {
-  chocolateBars.slice(1);
+  morechocolateBars.slice(1);
 }
