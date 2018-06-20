@@ -29,5 +29,5 @@ function destructivelyRemoveElementFromEndOfArray(chocolateBars) {
   chocolateBars.pop(4);
 }
 function removeElementFromEndofArray(chocolateBars) {
-  lesschocolateBars = chocolateBars.slice(4);
+  lesschocolateBars = chocolateBars.slice(0, chocolateBars.length - 1);
 }
