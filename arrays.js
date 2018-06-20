@@ -11,7 +11,7 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, name) {
   chocolateBars.unshift(`${name}`);
 }
 function addElementToEndOfArray(chocolateBars, name){
-  
+  morechocolateBars = [...chocolateBars, '${name}'];
 }
 function destructivelyAddElementToEndOfArray(chocolateBars, name){
   morechocolateBars = [...chocolateBars, '${name}'];
