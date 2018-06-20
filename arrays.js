@@ -14,7 +14,7 @@ function addElementToEndOfArray(chocolateBars, name){
   morechocolateBars = [...chocolateBars, '${name}'];
 }
 function destructivelyAddElementToEndOfArray(chocolateBars, name){
-  morechocolateBars = [...chocolateBars, '${name}'];
+  chocolateBars.push(`${name}`)
 }
 function accessElementInArray(chocolateBars, Index) {
   console.log(chocolateBars, Index);
