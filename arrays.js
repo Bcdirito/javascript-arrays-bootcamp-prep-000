@@ -11,10 +11,10 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, name) {
   chocolateBars.unshift(`${name}`);
 }
 function addElementToEndOfArray(chocolateBars, name){
-  chocolateBars.push(`${name}`);
+  
 }
 function destructivelyAddElementToEndOfArray(chocolateBars, name){
-  chocolateBars = [...chocolateBars, '${name}'];
+  morechocolateBars = [...chocolateBars, '${name}'];
 }
 function accessElementInArray(chocolateBars, Index) {
   console.log(chocolateBars, Index);
